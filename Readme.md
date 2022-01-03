@@ -5,5 +5,5 @@ Demo project to test secret detection tools.
 # Connect to local db
 
 `````shell
-mysql -h myhost.com -u hardcodedsecrets -preallysecurepassword
+mysql -h myhost.com -u hardcodedsecrets --password=reallysecurepassword
 `````
