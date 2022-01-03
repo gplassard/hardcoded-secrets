@@ -2,7 +2,7 @@ spring:
     datasource:
         username: hardcodedsecrets
         password: reallysecurepassword
-        url: jdbc:mysql://127.0.0.1:3306/hardcodedsecrets
+        url: jdbc:mysql://myhost.com:3306/hardcodedsecrets
         driverClassName: com.mysql.cj.jdbc.Driver
     jpa:
         hibernate:
